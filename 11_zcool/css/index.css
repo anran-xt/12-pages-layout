@@ -1,0 +1,601 @@
+body,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}
+body{
+    background: #fff;
+}
+ul,ol{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    border:none;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    height:56px;
+    min-width:1200px;
+    background: #ffd100;
+    text-align: center;
+}
+#header .headWrap{
+    width:1200px;
+    position: relative;
+    margin:auto;
+
+}
+#header .logo{
+    position: absolute;
+    top:18px;
+    left:0;
+}
+#header .logo img{
+    width:120px;
+    height:20px;
+}
+#header .navList{
+    display: inline-block;
+    height:56px;
+    line-height: 56px;
+}
+#header .navList li{
+    float: left;
+}
+
+#header .navList li>a{
+    color:#282828;
+    padding:0 24px;
+    font-size:14px;
+    display: block;
+}
+#header .navList li:hover>a{
+    background: #282828;
+    color:#ffd100;
+}
+#header .navList .more a{
+    padding:0 20px;
+    position: relative;
+}
+#header .navList .more .more_icon i{
+    display: block;
+    height:56px;
+    width:20px;
+    background: url("../img/nav-more.svg") no-repeat center;
+}
+#header .navList .more .more_icon span{
+    width:8px;
+    height:8px;
+    display: block;
+    background: #ff4a3b;
+    border-radius: 50%;
+    position: absolute;
+    top:20px;
+    right:8px;
+}
+#header .navList .home{
+    font-weight: 800;
+}
+#header .navList .liBar{
+    position: relative;
+}
+#header .navList .liBar:hover .liSubBar{
+    display: block;
+
+}
+#header .navList .liBar .liSubBar{
+    display: none;
+    position: absolute;
+    top:56px;
+    background: #fff;
+    z-index: 9;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: -1px 2px 5px 1px #bbb ;
+}
+#header .navList .findBar .subFindBar {
+    width:664px;
+    height:144px;
+}
+#header .navList .findBar .subFindBar .topFind{
+    padding:14px 17px;
+    height:66px;
+    border-bottom: 1px solid #ccc;
+}
+#header .navList .liBar .liSubBar a{
+    height:1em;
+    line-height:1em;
+    color:#444444;
+}
+
+#header .navList .findBar .subFindBar .topFind a{
+    float: left;
+    width:89px;
+    display: inline-block;
+    font-size:14px;
+    padding:10px 0;
+    margin-top:3px;
+}
+#header .navList .findBar .subFindBar .topFind a span{
+    padding:5px 8px;
+    border-radius: 5px;
+}
+#header .navList .findBar .subFindBar .topFind a:hover span{
+    background: #ffd100;
+}
+#header .navList .findBar .subFindBar .topFind i{
+    display: inline-block;
+    float: left;
+    width:1px ;
+    height:14px;
+    background: #dddddd;
+    position: relative;
+    top:14px;
+}
+#header .navList .findBar .subFindBar .otherFind{
+    height:49px;
+    line-height:49px;
+    text-align: left;
+}
+#header .navList .findBar .subFindBar .otherFind a{
+    color:#444444;
+    margin-left:30px;
+}
+#header .navList .findBar .subFindBar .otherFind a:hover{
+    color:#d36f19;
+}
+#header .navList .findBar .subFindBar .otherFind a i{
+    margin-left:3px;
+}
+#header .navList .findBar .subFindBar .otherFind .special{
+    margin-left:40px;
+}
+
+#header .navList .liComm .liSubBar{
+    display: none;
+    width:132px;
+    /*height:137px;*/
+    text-align: left;
+    padding:7px 0 0 0px;
+}
+#header .navList .liComm .liSubBar a{
+    display: block;
+    height:46px;
+    line-height:46px;
+    padding-left:20px;
+    font-size:14px;
+}
+#header .navList .liComm .liSubBar a:hover{
+    background: #ffd100;
+}
+
+
+
+
+
+
+#header .search,#header .upload{
+    height: 56px;
+    width:60px;
+    position: absolute;
+    top:0;
+}
+#header .search{
+    right:192px;
+}
+#header .upload{
+    right:132px;
+}
+#header .search a,#header .upload a{
+    display: block;
+    height:100%;
+    overflow: hidden;
+}
+#header .search i,#header .upload i{
+    width:20px;
+    height: 20px;
+    display: block;
+    margin:18px auto 0 auto;
+}
+#header .upload i{
+    width:24px;
+}
+#header .search i{
+    background: url("../img/nav-search.svg") center no-repeat;
+}
+#header .upload i{
+    background: url("../img/nav-upload.svg") center no-repeat;
+}
+#header .loginArea{
+    height:56px;
+    line-height:56px;
+    float: right;
+}
+#header .loginArea li{
+    float: left;
+}
+#header .loginArea li a{
+    display: block;
+}
+#header .loginArea li a span{
+    padding:0 10px;
+    color:#282828;
+    font-size:14px;
+    line-height:14px;
+}
+#header .loginArea .login a span{
+    position: relative;
+}
+#header .loginArea .login a span:after{
+    content: "";
+    display: block;
+    width:1px ;
+    height:10px;
+    background: #282828;
+    position: absolute;
+    right:0;
+    top:5px;
+}
+
+#banner{
+    width:1130px;
+    height:300px;
+    margin:20px auto;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+#banner .bannerList{
+    width:1130px;
+    height:300px;
+    position: relative;
+}
+#banner .bannerList li{
+    position: absolute;
+    z-index: 0;
+}
+#banner .bannerList li:first-child{
+    z-index: 1;
+}
+#banner .bannerList img{
+    width:1130px;
+    height:300px;
+}
+#banner .bannerNav{
+    position: absolute;
+    bottom:30px;
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+}
+#banner .bannerNav span{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background: #bbb;
+    display: inline-block;
+    margin:0 5px;
+    cursor: pointer;
+}
+#banner .bannerNav .active{
+    background: #fa4a3b;
+}
+
+
+
+
+
+#advtop{
+    max-width:1130px;
+    margin:auto;
+    /*overflow: hidden;*/
+    padding-bottom:35px;
+}
+#advtop ul{
+    height:170px;
+    width:1150px;
+}
+#advtop ul li{
+    float: left;
+    margin-right:20px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+#advtop ul li img{
+    width:210px;
+    height:168px;
+}
+
+
+#subNav{
+    min-width:1130px;
+    height:56px;
+    font-size:16px;
+    line-height:16px;
+    border-bottom: 1px solid #eee;
+}
+#subNav .wrap{
+    width:1130px;
+    height:56px;
+    margin:auto;
+    text-align: center;
+}
+#subNav .wrap .iconGif{
+    height:50px;
+    float: right;
+}
+#subNav .wrap ul{
+    display: inline-block;
+    height:100%;
+}
+#subNav .wrap ul li{
+    display: inline-block;
+    padding:0 30px;
+    height:100%;
+}
+#subNav .wrap ul li a{
+    padding:19px 0;
+    display: block;
+    color:#999;
+    border-bottom:2px solid  transparent;
+}
+#subNav .wrap ul li a:hover{
+    border-color:#444;
+    color:#282828;
+}
+#subNav .wrap ul .groom a{
+    color:#282828;
+    border-bottom:2px solid  #444;
+}
+
+#allWorkList{
+    width:100%;
+    min-width:1130px;
+    background: #f4f4f4;
+    overflow: hidden;
+}
+#allWorkList .wrap{
+    width:1130px;
+    margin:20px auto;
+    overflow: hidden;
+}
+#allWorkList .wrap .boxList{
+    width:1150px;
+}
+#allWorkList .wrap .box{
+    width:210px;
+    background: #fff;
+    border-radius: 4px;
+    margin:0 20px 20px 0;
+    float: left;
+    overflow: hidden;
+}
+#allWorkList .wrap .box .boxTop img{
+    width:210px;
+}
+#allWorkList .wrap .box .boxTop img:hover{
+    opacity: 0.8;
+}
+#allWorkList .wrap .box .boxMid{
+    padding:11px 16px 13px;
+    border-bottom:1px solid #eee;
+}
+#allWorkList .wrap .box .boxMid .title_content{
+    display: inline-block;
+    font-size:14px;
+    color:#333;
+}
+#allWorkList .wrap .box .boxMid .title_content:hover{
+    color:#d36f16;
+    cursor: pointer;
+}
+#allWorkList .wrap .box .boxMid .card_type{
+    font-size:12px;
+    color:#bbb;
+    margin-bottom:17px;
+}
+#allWorkList .wrap .box .boxMid .smallItem{
+    font-size:12px ;
+    color:#bbb;
+    display: inline-block;
+    vertical-align: top;
+}
+#allWorkList .wrap .box .boxMid .smallItem:before{
+    content: "";
+    display: inline-block;
+    width:16px;
+    height:16px;
+    margin-right:5px;
+    vertical-align: top;
+}
+#allWorkList .wrap .box .boxMid .view{
+    background: url("../img/view.svg") no-repeat left;
+    background-size: 16px 16px;
+}
+#allWorkList .wrap .box .boxMid .comment{
+    background: url("../img/comment.svg") no-repeat left;
+    background-size: 16px 16px;
+}
+#allWorkList .wrap .box .boxMid .zan{
+    background: url("../img/zan.svg") no-repeat left;
+    background-size: 16px 16px;
+}
+
+#allWorkList .wrap .box .cardItem{
+    padding:0 16px;
+    height:50px;
+    line-height:50px;
+    font-size:12px;
+}
+#allWorkList .wrap .box .cardItem .userAvater,#allWorkList .wrap .box .cardItem .time{
+    display: inline-block;
+    height:50px;
+    line-height:50px;
+}
+#allWorkList .wrap .box .cardItem .userAvater img{
+    width:24px;
+    height:24px;
+    margin-right:10px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#allWorkList .wrap .box .cardItem .userAvater a{
+    color:#333;
+}
+#allWorkList .wrap .box .cardItem .userAvater a:hover{
+    color:#d36f16;
+}
+#allWorkList .wrap .box .cardItem .time{
+    color:#bbb;
+    float: right;
+}
+
+#allWorkList .wrap .layPage{
+    width:1130px;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    clear: both;
+    padding-top:40px;
+}
+#allWorkList .wrap .layPage ul{
+    display: inline-block;
+}
+#allWorkList .wrap .layPage ul li{
+    display: inline-block;
+    width:38px;
+    height:38px;
+    line-height: 38px;
+    text-align: center;
+    margin:0 3px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #E9E9E9;
+}
+#allWorkList .wrap .layPage ul li:hover{
+    background: #ffd100;
+    border: 1px solid #ffd100;
+}
+#allWorkList .wrap .layPage ul li:hover a{
+    color:#282828;
+}
+#allWorkList .wrap .layPage ul .firstPage{
+    background: #ffd100;
+    border: 1px solid #ffd100;
+
+}
+#allWorkList .wrap .layPage ul li a{
+    color:#999;
+    font-size:14px;
+    display: block;
+}
+#allWorkList .wrap .layPage ul .firstPage a{
+    color:#282828;
+}
+
+#allWorkList .wrap .advBottom{
+    width:1130px;
+    margin-top:30px;
+}
+#allWorkList .wrap .advBottom img{
+    width:1130px;
+    height:100px;
+}
+#allWorkList .wrap .album_title{
+    font-size:14px;
+    line-height:14px;
+    margin:20px 0;
+    color:#666;
+    width:1130px;
+}
+#allWorkList .wrap .album_title .change{
+    float: right;
+}
+#allWorkList .wrap .album_title .change a{
+    color:#d36f16;
+}
+
+#footer{
+    min-width:1130px;
+    background: #282828;
+}
+#footer .wrap{
+    width:1130px;
+    margin: auto;
+}
+#footer .footer-top{
+    width:100%;
+    height:130px;
+    border-bottom:1px solid #333;
+    border-bottom:  1px solid #333;
+}
+#footer .footer-top ul{
+    float: left;
+    height:130px;
+    line-height:130px;
+}
+#footer .footer-top ul li{
+    display: inline-block;
+    font-size:14px;
+}
+#footer .footer-top ul .mobile:before{
+    content: "";
+    display: inline-block;
+    width:14px;
+    height:23px;
+    margin-right:10px;
+    background: url("../img/footer-mobile.svg") no-repeat left;
+    vertical-align: middle;
+    margin-top:-3px;
+}
+#footer .footer-top ul li a{
+    color:#666;
+    margin-right:38px;
+}
+
+#footer .footer-top .right{
+    float: right;
+    height:130px;
+    line-height: 130px;
+}
+#footer .footer-top .right span{
+    margin-left:40px;
+    vertical-align: middle;
+}
+#footer .footer-top .right .weixin{
+    width:25px;
+    height:21px;
+    display: inline-block;
+    background: url("../img/footer-weixin.svg") no-repeat center;
+}
+#footer .footer-top .right .weibo{
+    width:26px;
+    height:21px;
+    display: inline-block;
+    background: url("../img/footer-weibo.svg") center no-repeat;
+}
+
+#footer .footer-bottom{
+    padding-bottom:20px;
+}
+#footer .footer-bottom a {
+    color:#666;
+    font-size:12px;
+    margin-top:20px;
+}
+#footer .footer-bottom i{
+    display: inline-block;
+    width:1px ;
+    height:12px;
+    background: #666;
+    margin:20px 19px 0 19px;
+}
+#footer .footer-bottom .copyRight{
+    float: right;
+}

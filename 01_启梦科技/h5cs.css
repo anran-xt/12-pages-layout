@@ -1,0 +1,471 @@
+body{
+    margin:0;
+    padding:0;
+    background:#ffffff;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}
+#head .topDes .qmkj{
+    width:960px;
+    margin:auto;
+    height:80px;
+    line-height: 80px;
+    padding-bottom: 20px;
+}
+#head .topDes .qmkj .logo img{
+    vertical-align: top;
+}
+#head .topDes .qmkj .logo,#head .topDes .ewm{
+    display: inline-block;
+    height:60px;
+    vertical-align: bottom;
+}
+#head .topDes .ewm{
+    margin:0 50px;
+}
+#head .topDes .ewm span{
+    display: block;
+    height:30px;
+    line-height: 30px;
+}
+#head .topDes .ewm .kf{
+    color:#6c6c6c;
+}
+#head .topDes .ewm .kfnum{
+    color:blue;
+    font-weight: bold;
+}
+
+
+#head .header{
+    background: #00659c;
+}
+#head .header .headerUl{
+    padding:15px 0;
+    margin:0;
+    margin:auto;
+    text-align: center;
+    color:white;
+    list-style: none;
+    height:19px;
+    font-size:0;
+}
+#head .header .headerUl li{
+    font-size:14px;
+    width:122px;
+    display: inline-block;
+    border-right:1px solid white;
+}
+#head .header .headerUl li:last-child{
+    border: none;
+}
+
+/*briefDes*/
+/*#briefDes h1,*/
+
+#briefDes{
+    background: url("img/banner.jpg") no-repeat;
+}
+
+#briefDes .outContainer{
+    width:960px;
+    margin:auto;
+}
+#briefDes .message{
+    text-align: right;
+    padding-top:60px;
+}
+#briefDes .message h1{
+    font-weight: normal;
+    line-height: 1.5;
+
+}
+#briefDes .message p,#briefDes .message h1:first-child{
+    color:#6c6c6c;
+    line-height: 1.5;
+}
+#briefDes .message p:first-child{
+    font-size:18px;
+}
+#briefDes .message p:last-child{
+    font-size:14px;
+}
+#briefDes .boxList{
+    text-align: center;
+    padding:70px 0 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#briefDes .boxList .xmbox{
+    padding:20px;
+    width:250px;
+    height:71px;
+    text-align: center;
+    display: inline-block;
+    background: #f3f3f3;
+}
+#briefDes .boxList .xmbox h1{
+    padding-bottom:10px;
+    font-size:24px;
+    font-weight:normal;
+    border-bottom: 1px solid #dfdfdf;
+    color:#888888;
+}
+#briefDes .boxList .xmbox p{
+    font-size:12px;
+    color:#bababa;
+}
+#briefDes .boxList .chosed p {
+    color:#ffffff;
+}
+#briefDes .boxList .chosed h1,#briefDes .boxList .chosed p{
+    color:white;
+}
+#briefDes .boxList .chosed{
+    background: rgba(0,110,170,0.9);
+}
+
+
+
+#briefDes .fulist{
+    background: #F6F6F6;
+}
+#briefDes .list{
+    height:270px;
+    position: relative;
+    margin:auto;
+    width:960px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#briefDes  .list .box{
+    text-align: center;
+    height:250px;
+    background:#ffffff;
+    position: relative;
+    top:-40px;
+}
+#briefDes .list .box .img{
+    margin:0;
+    width:213px;
+    height:163px;
+    line-height: 163px;
+    text-align: center;
+    background: #006eaa;
+
+}
+#briefDes .list .box .img img{
+    vertical-align: middle;
+}
+#briefDes  .list .box h1{
+    font-size:20px;
+    font-weight: bold;
+    color:#333333;
+}
+#briefDes .list .box .word{
+    padding:20px;
+}
+#briefDes .list .box .word p{
+    font-size:12px;
+    color:#999999;
+}
+#briefDes  .list .leftBtn,#briefDes .list .rightBtn{
+    height:200px;
+    line-height: 200px;
+    position: absolute;
+}
+#briefDes .list .leftBtn{
+    left:-20px;
+}
+#briefDes  .list .rightBtn{
+    right:-20px;
+}
+#qmjj .container{
+    box-sizing: border-box;
+    width:960px;
+    margin:auto;
+    padding:40px 0 70px 0;
+}
+#qmjj .container .intro{
+    padding: 20px 0;
+}
+#qmjj .container .intro .title{
+    padding:0  0 34px 0;
+}
+#qmjj .container .intro .title  h1{
+    font-size:24px;
+}
+#qmjj .container .intro .title h1,#qmjj .container .intro .title p{
+    display: inline-block;
+}
+#qmjj .container .intro .title h1{
+    color:#006eaa;
+}
+#qmjj .container .intro .title p{
+    font-size:20px;
+    color:#999999;
+    padding-left:20px;
+}
+#qmjj .container .intro .desIntro {
+    font-size:14px;
+    color:#666666;
+
+}
+#qmjj .container .boxList{
+    display: flex;
+
+    justify-content: space-around;
+    /*flex-wrap: wrap;*/
+
+}
+#qmjj .container .boxList .box{
+    /*padding*/
+    width:300px;
+    height:130px;
+    border:1px solid #c6c6c6;
+    text-align: center;
+}
+#qmjj .container .boxList .box .title p:first-child{
+    text-align: left;
+}
+#qmjj .container .boxList .box .title p:last-child{
+    font-size:14px;
+    color:#ffffff;
+}
+#qmjj .container .boxList .box .title{
+    padding:10px;
+    background: #0a628f;
+    color:white;
+    /*font-size:14px;*/
+}
+#qmjj .container .boxList .box .desWord{
+    padding:15px 30px 0 30px;
+    color:#999999;
+    font-size:12px;
+    text-align:left;
+
+}#fwzq{
+    padding-bottom:50px;
+    border-bottom: 1px solid #c6c6c6;
+ }
+
+#fwzq .headCon{
+    background: #0a628f;
+
+
+}
+#fwzq .head{
+    height:104px;
+    width:960px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+#fwzq .head .introd,#fwzq .head .fwlist{
+    line-height:104px;
+    /*display: inline-block;*/
+
+}
+#fwzq .head .introd h4{
+    display: inline-block;
+}
+#fwzq .head .fwlist div{
+    color:white;
+    display: inline-block;
+    padding-top:20px;
+}
+#fwzq .head .fwlist div p{
+    line-height: 1.4;
+    margin:0 20px;
+}
+#fwzq .head .fwlist div p span{
+    font-size:25px;
+    color:orange;
+}
+#fwzq .head .introd h4{
+    font-size:24px;
+    color: #ffffff;
+    padding-right:20px;
+}
+#fwzq .head .introd span{
+    color: #fbfeff;
+
+}
+
+
+#fwzq .main{
+    width:960px;
+    margin:auto;
+    padding-top:60px;
+}
+#fwzq .main .succ .succList{
+    display: flex;
+    justify-content: space-between;
+}
+#fwzq .main .succ .title{
+    position: relative;
+    padding:10px 0;
+}
+#fwzq .main .succ .title p{
+    color:#006eaa;
+    font-size:24px;
+    display: inline-block;
+}
+#fwzq .main .succ .title p span{
+    font-size:20px;
+    color:#999999;
+}
+#fwzq .main .succ .title .spans{
+    position: absolute;
+    display: inline-block;
+    right:0;
+}
+#fwzq .main .succ .title .spans span{
+    display: inline-block;
+    width:10px;height:10px;
+    /*border: 1px solid #c6c6c6;*/
+    border-radius: 50%;
+    background: #c6c6c6;
+}
+#fwzq .main .succ .title .spans span:nth-child(2){
+    background: orange;
+}
+
+#fwzq .main .succ .succList .succBox{
+    width:300px;
+}
+#fwzq .main .succ .succList .succBox .detail{
+    padding-top:15px;
+}
+#fwzq .main .succ .succList .succBox .detail p:first-child{
+    color:#333333;
+    padding:5px 0;
+}
+#fwzq .main .succ .succList .succBox .detail .word{
+    font-size:12px;
+    color:#999999;
+}
+
+#news{
+    width:960px;
+    margin: auto;
+    padding:50px 0;
+}
+#news .left,#news .right{
+    display: inline-block;
+}
+#news .left{
+    width:580px;
+}
+.introd{
+    position: relative;
+    height:70px;
+}
+.introd h4{
+    display: inline-block;
+    font-size:24px;
+    color:#006eaa;
+}
+.introd p{
+    display: inline-block;
+    font-size:24px;
+    color:#999999;
+}
+.introd p:nth-child(3){
+    font-size:16px;
+    color:red;
+    position: absolute;
+    right:0;
+}
+#news .left .box .detail{
+    display: inline-block;
+    width:480px;
+    vertical-align: top;
+}
+#news .left .box .detail img{
+    display: inline-block;
+}
+#news .left .box .detail p{
+    display: inline-block;
+}
+#news .left .box .detail p:nth-child(1){
+    font-size:18px;
+    color: #0a628f;
+    padding:5px 0;
+}
+#news .left .box .detail p:nth-child(2){
+    font-size:14px;
+    color:#6c6c6c;
+}
+#clients{
+    width:960px;
+    margin:auto;
+    padding:40px 0;
+}
+#clients .pics{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#clients .pics div{
+    line-height:70px;
+    text-align: center;
+    display: inline-block;
+    width:180px;
+    height:70px;
+    border: 1px solid #c6c6c6;
+    margin:5px;
+}
+
+
+#footer{
+    height:80px;
+    background: #0a628f;
+}
+#footer .inConta{
+    width:960px;
+    margin:auto;
+}
+#footer .img{
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    float:left;
+
+}
+#footer img{
+    vertical-align: middle;
+    border-right:1px solid white;
+    padding-right:20px;
+
+
+}
+#footer .des{
+    box-sizing: border-box;
+    font-size:14px;
+    color:white;
+    padding-left:20px;
+    float:left;
+    height:80px;
+    font-size:14px;
+    width:710px;
+    padding-top:20px;
+}
+
+#footer .des p{
+    color:#e5f6ff;
+
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+

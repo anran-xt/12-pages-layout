@@ -1,0 +1,597 @@
+body,h1,h2,h3,h4,h5,h6,ul,p{
+    margin:0;
+    padding:0;
+}
+body{
+    background: #fff;
+}
+
+.clear{
+    clear: both;
+}
+/*1066*/
+#head{
+    min-width:1066px;
+    height:78px;
+    box-shadow: 0 1px 3px;
+    background: #fff;
+}
+#head .headWrap{
+    width:1066px;
+    height:78px;
+    margin:auto;
+}
+#head .logo,#head .list,#head .other{
+    float: left;
+}
+#head .logo{
+}
+#head .logo img{
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+#head .logo span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size:14px;
+    color:#707070;
+    line-height:29px;
+    height:29px;
+}
+#head .logo span:nth-of-type(1){
+    padding-left:19px;
+    border-left:1px solid  #707070;
+}
+#head .logo span:nth-of-type(2){
+    width:1px;
+    height:1px;
+    background: url("../img/doto.gif");
+}
+#head .list{
+    margin-left:65px;
+}
+#head .list ul{
+    list-style: none;
+    margin:0;
+    height:78px;
+    padding:0;
+}
+#head .list ul li{
+    float: left;
+    width:101px;
+    height:78px;
+}
+#head .list ul li:nth-of-type(1){
+    background: url("../img/tximg_04.jpg") no-repeat;
+}
+#head .list ul li:nth-of-type(2){
+    background: url("../img/tximg_04.jpg") no-repeat -110px;
+}
+#head .list ul li:nth-of-type(3){
+    background: url("../img/tximg_04.jpg") no-repeat -247px;
+}
+#head .list ul li:nth-of-type(4){
+    background: url("../img/tximg_04.jpg") no-repeat -380px;
+}
+#head .list ul li:nth-of-type(5){
+    background: url("../img/tximg_04.jpg") no-repeat -505px;
+}
+#head .other{
+    height:78px;
+}
+#head .other .search{
+    display: inline-block;
+    width:31px;
+    height: 30px;
+    background: url("../img/tximg_10.jpg") no-repeat;
+    vertical-align: middle;
+    padding-right:20px;
+    border-right:1px solid #dcdcdc;
+}
+#head .other .login{
+    display: inline-block;
+    width:34px;
+    height:46px;
+    background: url("../img/tximg_07.jpg") top no-repeat;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:21px;
+}
+#head .other .login a{
+    vertical-align: bottom;
+    display: inline-block;
+    font-size:12px;
+    text-decoration: none;
+    color:#a196a8;
+    margin-top:29px;
+}
+#head .other  .no{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#banner{
+    height:357px;
+    background: url("../img/tximg_17.jpg") center no-repeat;
+}
+.yugao{
+    width:1066px;
+    margin:auto;
+    height:38px;
+    line-height:38px;
+    background: url(../img/tximg_23.jpg) no-repeat center bottom;
+}
+.yugao p{
+    font-size:14px;
+    color:#000000;
+    margin:0 0 0 20px;
+    padding-left:29px;
+    background: url("../img/tximg_18.jpg") no-repeat left center;
+}
+
+#main{
+    background: #d6dae2;
+    min-width:1066px;
+    padding-top:21px;
+}
+#main .mainWrap{
+    width:1064px;
+    margin:auto;
+    position: relative;
+    /*height:500px;*/
+    /*background: red;*/
+}
+#main .mainWrap .left{
+    width:780px;
+    /*height:700px;*/
+    float: left;
+    /*background: lightblue;*/
+}
+#main .mainWrap .left .course,#main .mainWrap .left .share,#main .mainWrap .left .quality{
+    padding:0 20px 20px;
+    background: #f2f1ef;
+    margin-bottom:20px;
+}
+#main .mainWrap .left .quality{
+    margin-bottom:0px;
+}
+#main .mainWrap .left>div>h2{
+    height:60px;
+    line-height:60px;
+    margin:0;
+    font-weight:normal;
+    font-size:20px;
+    padding-left:30px;
+    background: url("../img/tximg_96.jpg") no-repeat left center;
+    float: left;
+}
+#main .mainWrap .left>div>span{
+    float: right;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    color:#888888;
+}
+
+#main .mainWrap .left .course .listBox{
+    clear: both;
+}
+#main .mainWrap .left .course dl{
+    margin: 0;
+    width:226px;
+    height:276px;
+    float: left;
+}
+#main .mainWrap .left .course dt{
+    margin-bottom:12px;
+}
+#main .mainWrap .left .course dd{
+    padding:0 10px;
+    margin: 0;
+    font-size:12px;
+}
+#main .mainWrap .left .course dd:nth-of-type(1){
+    line-height: 24px;
+}
+#main .mainWrap .left .course dd:nth-of-type(2){
+    line-height: 20px;
+    color:#888888;
+}
+#main .mainWrap .left .course dl:nth-of-type(2){
+    margin:0 31px;
+}
+#main .mainWrap .left .share .box{
+    clear: both;
+    height:86px;
+    padding:20px 0 20px 20px;
+    margin-bottom: 20px;
+
+}
+#main .mainWrap .left .share .box:nth-of-type(1){
+    background:#ffffff  url("../img/tximg_33.jpg") no-repeat right top;
+}
+#main .mainWrap .left .share .box:nth-of-type(2){
+    background:#ffffff  url("../img/tximg_48.jpg") no-repeat right top;
+}
+#main .mainWrap .left .share .box:nth-of-type(3){
+    background:#ffffff  url("../img/tximg_49.jpg") no-repeat right top;
+}
+#main .mainWrap .left .share .box .pic,#main .mainWrap .left .share .box .des{
+    float: left;
+    height:86px;
+ }
+#main .mainWrap .left .share .box .pic img,#main .mainWrap .left .share .box .pic span{
+    vertical-align: middle;
+}
+#main .mainWrap .left .share .box .pic span{
+    display: inline-block;
+    height: 100%;
+
+}
+#main .mainWrap .left .share .box .des{
+    width:478px;
+    margin-left: 20px;
+}
+#main .mainWrap .left .share .box .des>span{
+    display: inline-block;
+    padding-left:14px;
+    background: url("../img/tximgs_61.jpg") no-repeat left center;
+    color:#888888;
+}
+#main .mainWrap .left .share .box .des h3,#main .mainWrap .left .share .box .des p{
+    margin: 0;
+}
+#main .mainWrap .left .share .box .des h3{
+    font-size:18px;
+    font-weight: normal;
+}
+#main .mainWrap .left .share .box .des span{
+    font-size:12px;
+}
+#main .mainWrap .left .share .box .des p{
+    font-size: 12px;
+}
+
+
+
+#main .mainWrap .left .quality .boxList .box{
+    width:350px;
+    height:361px;
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom:20px;
+}
+#main .mainWrap .left .quality .boxList .box:nth-of-type(1),#main .mainWrap .left .quality .boxList .box:nth-of-type(3){
+    margin-right:15px;
+}
+#main .mainWrap .left .quality .boxList .box:nth-of-type(2),#main .mainWrap .left .quality .boxList .box:nth-of-type(4){
+    margin-left:15px;
+}
+#main .mainWrap .left .quality .boxList .box h3{
+    height:25px ;
+    width:350px;
+    padding-bottom:20px;
+}
+#main .mainWrap .left .quality .boxList .box img{
+    width:350px;
+    height:160px;
+}
+#main .mainWrap .left .quality .boxList .box:nth-of-type(1) h3{
+    background: url("../img/tximg_99.jpg") top no-repeat;
+}
+#main .mainWrap .left .quality .boxList .box:nth-of-type(2) h3{
+    background: url("../img/tximg_101.jpg") top no-repeat;
+}
+#main .mainWrap .left .quality .boxList .box:nth-of-type(3) h3{
+    background: url("../img/tximg_119.jpg") top no-repeat;
+}
+#main .mainWrap .left .quality .boxList .box:nth-of-type(4) h3{
+    background: url("../img/tximg_121.jpg") top no-repeat;
+}
+
+#main .mainWrap .left .quality .boxList .box h3,#main .mainWrap .left .quality .boxList .box p,#main .mainWrap .left .quality .boxList .box h4{
+    margin: 0;
+    font-weight: normal;
+}
+#main .mainWrap .left .quality .boxList .box h4{
+    line-height:20px;
+    padding-top:12px;
+}
+#main .mainWrap .left .quality .boxList .box p{
+    color:#888888;
+    line-height:20px;
+}
+#main .mainWrap .left .quality .boxList .box span{
+    display: block;
+    line-height: 30px;
+    padding-left:14px;
+    background: url("../img/tximg_70.jpg") no-repeat left center;
+}
+
+
+#main .mainWrap .right{
+    width:266px;
+    height:2132px;
+    margin-left:18px;
+    float: left;
+    background: #fcfafb;
+}
+#main .mainWrap .right>div{
+    width:226px;
+    padding: 0 20px;
+}
+#main .mainWrap .right .rank{
+    padding-bottom:15px;
+    border-bottom: 1px solid #e4e3e2;
+}
+#main .mainWrap .right .rank h2{
+    font-size: 20px;
+    font-weight: normal;
+    line-height:60px;
+    margin:0;
+    padding-left:30px;
+    background: url("../img/tximg_50.jpg") no-repeat left center;
+}
+#main .mainWrap .right .rank .list{
+    width:226px;
+    height:34px;
+    background: url("../img/tximg.gif");
+    font-size: 0;
+    margin-bottom:15px;
+}
+#main .mainWrap .right .rank .list span{
+    display: inline-block;
+    height:34px;
+    line-height: 34px;
+    width: 113px;
+    text-align: center;
+    font-size: 14px;
+}
+#main .mainWrap .right .rank .list span:nth-of-type(2){
+    color:#919191;
+}
+#main .mainWrap .right .rank ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-size:12px;
+}
+#main .mainWrap .right .rank ul .show{
+    margin-bottom:20px;
+}
+#main .mainWrap .right .rank ul .word{
+    padding-left:29px;
+    line-height:30px;
+}
+#main .mainWrap .right .rank ul .six{
+    background:url("../img/tximg_60.jpg") no-repeat left center;
+}
+#main .mainWrap .right .rank ul .seven{
+    background:url("../img/tximg_61.jpg") no-repeat left center;
+}
+#main .mainWrap .right .rank ul .eight{
+    background:url("../img/tximg_62.jpg") no-repeat left center;
+}
+#main .mainWrap .right .rank ul .nine{
+    background:url("../img/tximg_63.jpg") no-repeat left center;
+}
+#main .mainWrap .right .rank ul .ten{
+    background:url("../img/tximg_64.jpg") no-repeat left center;
+}
+#main .mainWrap .right .txdx{
+    padding-bottom:20px;
+    border-bottom: 1px solid #e4e3e2;
+}
+#main .mainWrap .right .txdx img{
+    margin-top:17px;
+}
+#main .mainWrap .right .txdx h2{
+    font-size:18px;
+    font-weight: normal;
+    margin:0;
+    line-height:48px;
+}
+#main .mainWrap .right .txdx p{
+    margin:0;
+    font-size:14px;
+    line-height: 24px;
+}
+
+
+#main .mainWrap .right .contact h2{
+    margin:0;
+    font-size:18px;
+    line-height: 50px;
+    font-weight: normal;
+}
+#main .mainWrap .right .contact p{
+    margin:0;
+    font-size:12px;
+    line-height: 24px;
+}
+#main .mainWrap .right .contact .test{
+    width:200px;
+    height:119px;
+    margin:20px  auto 0 auto;
+    text-align: center;
+    background: #d4d4d4;
+}
+#main .mainWrap .right .contact .test p{
+    font-size:34px;
+    line-height:52px;
+    color:#343434;
+
+}
+#main .mainWrap .right .contact .test span{
+    display: inline-block;
+    font-size: 20px;
+    line-height:44px;
+    color:#FFF;
+    width:156px;
+    height:44px;
+    background: #343434;
+}
+#main .mainWrap .sider{
+    position: absolute;
+    top:0px;
+    right:-140px;
+    width:120px;
+    height:164px;
+    font-size:14px;
+    text-align: center;
+    background: #fff;
+}
+#main .mainWrap .sider p{
+    margin:0;
+    line-height:30px;
+    color:#666666;
+}
+
+
+#border{
+    height:3px;
+}
+#border>div{
+    width:25%;
+    float: left;
+    height:3px;
+}
+#border .first{
+    background: #1fc0ef;
+}
+#border .second{
+    background: #f6a544;
+}
+#border .third{
+    background: #8cbe00;
+}
+#border .fourth{
+    background: #ff6c00;
+}
+#more{
+    background: #f6f6f6;
+}
+#more .wrap{
+    width:1064px;
+    margin:auto;
+    padding-top:20px;
+
+}
+#more .wrap dt{
+    font-size:14px;
+    line-height: 46px;
+}
+#more .wrap dl{
+    margin: 0;
+}
+#more .wrap .left{
+    width:740px;
+    padding:0 20px;
+    float: left;
+}
+#more .wrap .left .top dl dd{
+    display: inline-block;
+    width:80px;
+    height:26px;
+    margin:0px 24px 28px 12px;
+}
+
+#more .wrap .left .top dl dd:nth-of-type(1){
+    background: url("../img/tximg_84.jpg") 0 0 no-repeat;
+}
+#more .wrap .left .top dl dd:nth-of-type(2){
+    background: url("../img/tximg_84.jpg") -125px 0 no-repeat;
+}
+#more .wrap .left .top dl dd:nth-of-type(3){
+    background: url("../img/tximg_84.jpg") -250px 0 no-repeat;
+}
+#more .wrap .left .top dl dd:nth-of-type(4){
+    background: url("../img/tximg_84.jpg") -375px 0;
+}
+#more .wrap .left .top dl dd:nth-of-type(5){
+    background: url("../img/tximg_84.jpg") -500px 0;
+}
+#more .wrap .left .top dl dd:nth-of-type(6){
+    background: url("../img/tximg_84.jpg") -625px 0;
+}
+#more .wrap .left .top dl dd:nth-of-type(7){
+    background: url("../img/tximg_84.jpg") 0 -50px no-repeat;
+}
+#more .wrap .left .top dl dd:nth-of-type(8){
+    background: url("../img/tximg_84.jpg") -125px -48px no-repeat;
+}
+#more .wrap .left .top dl dd:nth-of-type(9){
+    background: url("../img/tximg_84.jpg") -250px -48px no-repeat;
+}
+#more .wrap .left .top dl dd:nth-of-type(10){
+    background: url("../img/tximg_84.jpg") -375px -48px no-repeat;
+}
+#more .wrap .left .top dl dd:nth-of-type(11){
+    background: url("../img/tximg_84.jpg") -500px -48px no-repeat;
+}
+#more .wrap .left .top dl dd:nth-of-type(12){
+    background: url("../img/tximg_84.jpg") -625px -48px no-repeat;
+}
+#more .wrap .left .top dl dd:nth-of-type(13){
+    background: url("../img/tximg_84.jpg") 0 -99px no-repeat;
+}
+#more .wrap .left .top dl dd:nth-of-type(14){
+    background: url("../img/tximg_84.jpg") -125px -99px no-repeat;
+}
+#more .wrap .left .top dl dd:nth-of-type(15){
+     background: url("../img/tximg_84.jpg");
+ }
+#more .wrap .left .bottom dd{
+    margin:0;
+    display: inline-block;
+    padding:0 12px;
+    line-height:26px;
+    font-size:12px;
+}
+#more .wrap .right{
+    float: left;
+    padding-left:20px;
+}
+#more .wrap .right dd{
+    margin:0;
+    font-size:14px;
+    padding-left:24px;
+}
+#more .wrap .right dl:nth-of-type(1) dd{
+    background: url("../img/tximg_133.jpg") no-repeat left top;
+}
+#more .wrap .right dl:nth-of-type(2) dd{
+    background: url("../img/tximg_134.jpg") no-repeat left top;
+}
+
+
+#footer{
+    height:128px;
+    background: #bababa;
+    min-width:1064px;
+    font-size:12px;
+}
+#footer .wrap{
+    width:1064px;
+    margin:auto;
+    text-align: center;
+    padding-top:34px;
+}
+#footer ul,#footer p{
+    margin:0;
+    padding:0;
+}
+#footer ul{
+    list-style: none;
+}
+#footer ul li{
+    display: inline-block;
+    padding:0 8px;
+}
+#footer ul li:nth-of-type(2){
+    border-left:1px solid #620062;
+    border-right:1px solid #620062;
+}

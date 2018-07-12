@@ -1,0 +1,370 @@
+body,h1,h2,h3,dl,dd,p,form{
+    margin:0;
+}
+h1,h2,h3{
+    font-weight: normal;
+}
+ul,ol{
+    margin:0;
+    padding:0;
+}
+img{
+    display: block;
+    border: 0;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style: none;
+}
+
+
+#head{
+    min-width:1000px;
+}
+#head .top{
+    height:34px;
+    line-height:34px;
+    background:#303030;
+}
+#head .top .right{
+    height:34px;
+    overflow: hidden;
+    float: right;
+    margin-right:18px;
+}
+#head .top .right span a{
+    margin-left:28px;
+    font-size:12px;
+    color:#999999;
+}
+#head .top .right span:after{
+    content:"";
+    display: inline-block;
+    height:5px;
+    width:11px;
+    vertical-align: middle;
+    margin-left:6px;
+    background:url("img/icon.png") no-repeat -286px -4px;
+}
+
+#head .nav{
+    height:69px;
+    background: #fff;
+}
+#head .nav .left{
+    width:209px;
+    height:40px;
+    background:url("img/icon.png") no-repeat -24px -31px;
+    float: left;
+    position: relative;
+    top:-9px;
+    left:50px;
+}
+#head .nav ul{
+    height:69px;
+    float: right;
+}
+#head .nav li{
+    float: left;
+    width:101px;
+    text-align: center;
+}
+#head .nav li a{
+    display: block;
+    height:69px;
+    position: relative;
+    font-size:12px;
+    border-left:1px solid #bfbfbf;
+}
+#head .nav li a span{
+    display: block;
+
+}
+#head .nav li a .icon{
+    position: relative;
+    margin:auto;
+    top:20px;
+    width:22px;
+    height:20px;
+    background:url("img/icon.png") no-repeat 0 0;
+}
+#head .nav .sy a {
+    background: #4d4d4d;
+}
+#head .nav .sy a .title{
+    color:#fff;
+}
+#head .nav .pp a .icon{
+    background:url("img/icon.png") no-repeat 0 -25px;
+}
+#head .nav .pd a .icon{
+    background:url("img/icon.png") no-repeat 0 -50px;
+}
+#head .nav .jm a .icon{
+    background:url("img/icon.png") no-repeat 0 -75px;
+}
+#head .nav .xx a .icon{
+    background:url("img/icon.png") no-repeat 0 -100px;
+}
+#head .nav .lx a .icon{
+    background:url("img/icon.png") no-repeat 0 -125px;
+}
+#head .nav li a .title{
+    margin-top:20px;
+    line-height:28px;
+    color:#373737;
+}
+#banner{
+    height:570px;
+    background: url("img/xk__32.jpg") center no-repeat;
+}
+
+#workArea{
+    min-width:1000px;
+    background: #fff;
+    padding:50px 0 47px 0;
+}
+#workArea .wrap{
+    width:1000px;
+    margin: auto;
+    overflow: hidden;
+}
+#workArea .wrap .box{
+    width:191px;
+    height:344px;
+    border: 1px solid #cecece;
+    float: left;
+    text-align: center;
+    padding:0 18px;
+    margin-right:28px;
+}
+#workArea .wrap .fourthBox{
+    margin-right:0;
+}
+#workArea .wrap .box span{
+    display: inline-block;
+    width:105px;
+    height:105px;
+    background: url("img/pic.png") 0 0 no-repeat;
+}
+#workArea .wrap .secondBox span{
+    background: url("img/pic.png") 0 -106px no-repeat;
+}
+#workArea .wrap .thirdBox span{
+    background: url("img/pic.png") 0 -212px no-repeat;
+}#workArea .wrap .fourthBox span{
+     background: url("img/pic.png") 0 -318px no-repeat;
+ }
+
+#workArea .wrap .box h2{
+    font-size:16px;
+    line-height:38px;
+}
+#workArea .wrap .box p{
+    font-size:12px;
+    color:#484848;
+    line-height:24px;
+}
+#workArea .wrap .box .boxTop{
+    padding:16px 0;
+    border-bottom: 1px dotted #8d8d8d;
+}
+#workArea .wrap .box button{
+    width:118px;
+    height:36px;
+    border: 1px solid #b7b7b7;
+    border-radius:3px;
+    text-align: center;
+    outline:none;
+    margin-top:21px;
+}
+#workArea .wrap .box button a{
+    display: block;
+     color:#3f3f3f;
+}
+
+#cooperate{
+    min-width:1000px;
+    background: #ebebeb;
+    overflow: hidden;
+    padding-bottom:42px;
+}
+#cooperate .wrap{
+    width:1000px;
+    margin:auto;
+}
+#cooperate h2{
+    height:72px;
+    position: relative;
+}
+#cooperate h2 .icon{
+    display: inline-block;
+    width:165px;
+    height:23px;
+    background: url("img/icon.png") -24px 0 no-repeat;
+    position: absolute;
+    bottom:19px;
+}
+#cooperate h2 .more{
+    display: inline-block;
+    width:96px;
+    height:28px;
+    background: #cbcbcb;
+    text-align: center;
+    line-height:28px;
+    position: absolute;
+    right:0;
+    bottom:16px;
+}
+#cooperate h2 .more a{
+    color:#fff;
+    display: block;
+    font-size:12px;
+}
+#cooperate h2 .more a:after{
+    content: "";
+    display: inline-block;
+    width:5px;
+    height:8px;
+    background: url("img/icon.png") -291px -14px no-repeat;
+    margin-left:20px;
+}
+#cooperate .leftBox{
+    float: left;
+    width:402px;
+    background: #fff;
+    height:505px;
+}
+#cooperate .leftBox h3{
+    font-size:14px;
+    color:#858585;
+    height:64px;
+    line-height:64px;
+    padding-left:18px;
+}
+#cooperate .leftBox .title{
+    height:76px;
+    padding-left:22px;
+    border-bottom:1px solid #ececec;
+}
+#cooperate .leftBox .title p{
+    font-size:18px;
+    padding-top:24px;
+}
+#cooperate .leftBox .title .date{
+    font-size:12px;
+    color:#adadad;
+    padding-top:10px;
+}
+#cooperate .leftBox .des{
+    font-size:12px;
+    color:#adadad;
+    padding:22px  30px 0 18px;
+}
+#cooperate .rightBox{
+    float: left;
+    width:598px;
+}
+#cooperate .rightBox .box{
+    margin:15px 0 0 14px;
+    background: #fff;
+    float: left;
+}
+#cooperate .rightBox .box .title{
+    width:269px;
+    height:64px;
+    padding-left:15px;
+}
+#cooperate .rightBox .box .title p{
+    padding-top:13px;
+    font-size:14px;
+}
+#cooperate .rightBox .box .title .date{
+    font-size:12px;
+    color:#adadad;
+}
+#cooperate .rightBox .firstBox,#cooperate .rightBox .secondBox{
+    margin-top:0;
+}
+
+#footer{
+    min-width:1000px;
+    background: #fff;
+    padding:23px 0 19px 0 ;
+}
+#footer .wrap{
+    width: 998px;
+    margin:auto;
+    border: 1px solid #dedede;
+    overflow: hidden;
+}
+#footer .top{
+    padding:32px 0 30px 0;
+    overflow: hidden;
+    border-bottom:1px solid #dedede;
+}
+#footer .top ul{
+    overflow: hidden;
+    float: left;
+}
+#footer .top li{
+    float: left;
+    padding:0 40px;
+    height:160px;
+    border-right:1px solid #dedede;
+    font-size:14px;
+}
+#footer .top dt{
+    line-height:30px;
+}
+#footer .top dd{
+    line-height:24px;
+}
+#footer .top dd a{
+    color:#717171;
+}
+#footer .top .contact{
+    padding:35px 0 0 48px;
+    float: left;
+}
+#footer .top .contact p{
+    line-height:30px;
+}
+#footer .top .contact span{
+    color:#a60000;
+}
+#footer .bottom{
+    padding:10px 0 0 18px;
+}
+#footer .bottom p span{
+    color:#b6b6b6;
+}
+#footer .bottom ul li{
+    float: left;
+    margin:30px 30px  10px;
+}
+#footer .bottom ul li a{
+    color:#717171;
+}
+
+#copy{
+    min-width:1000px;
+    background: #232323;
+    height:84px;
+}
+#copy .wrap{
+    width:1000px;
+    margin:auto;
+    color:#717171;
+    font-size:12px;
+    overflow: hidden;
+    padding-top:55px;
+}
+#copy .wrap .right{
+    float: left;
+}
+#copy .wrap p{
+    float: right;
+}

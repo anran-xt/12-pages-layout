@@ -1,0 +1,356 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol{
+    padding:0;margin:0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+}
+
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border:none;
+}
+input,button{
+    outline:none;
+}
+
+#head{
+    min-width:1002px;
+    font-size:12px;
+}
+#head a{
+    color:#6a6967;
+}
+#head .topWrap .top,#head .bottomWrap .bottom{
+    width:1002px;
+    margin:auto;
+}
+#head .topWrap{
+    height:35px;
+    background: #e4e4e4;
+}
+#head .topWrap .top{
+    height:35px;
+}
+#head .topWrap .top ul li{
+    float: left;
+    height:35px;
+    line-height:35px;
+}
+#head .topWrap .top ul li a{
+    padding:0 8px 0 7px;
+    border-left:1px solid #fff;
+    border-right:1px solid #d5d5d5;
+}
+#head .topWrap .top ul li .first{
+    border-left:0;
+}
+#head .topWrap .top ul li .last{
+    border-right:0;
+}
+
+#head .topWrap .top .right{
+    float:right;
+}
+#head .topWrap .top .right .search,#head .topWrap .top .right .other{
+    float: left;
+    height:35px;
+    line-height:35px;
+}
+#head .topWrap .top .right .other span{
+    margin-right:17px;
+}
+#head .topWrap .top .right .search{
+    margin-left:8px;
+}
+#head .topWrap .top .right .search input{
+    width:136px;
+    height:20px;
+    border:none;
+    padding:0 0 0 4px ;
+    vertical-align: middle;
+    color:#c9c9c9;
+    background: #fff;
+}
+#head .topWrap .top .right .search button{
+    padding:0;
+    width:23px;
+    height:20px;
+    border:none;
+    background: url("img/jr_03.jpg") top no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:6px;
+}
+#head .bottomWrap{
+    min-width:1002px;
+    height:98px;
+    background: #fff;
+}
+#head .bottomWrap .bottom{
+    width:1002px;
+    margin:auto;
+}
+#head .bottomWrap .bottom .logo,#head .bottomWrap .bottom .moto{
+    height:98px;
+}
+#head .bottomWrap .bottom .logo{
+    width:324px;
+    float: left;
+    background: url("img/jr_10.jpg") left center no-repeat;
+}
+#head .bottomWrap .bottom .moto{
+    width:292px;
+    float: right;
+    background: url("img/jr_07.jpg") left center no-repeat;
+}
+
+#nav{
+    height:44px;
+    min-width:1002px;
+    background: #d92b34;
+    font-size:16px;
+}
+#nav .list{
+    width:1002px;
+    margin:auto;
+    height:44px;
+    line-height:44px;
+    background:#c8141f;
+}
+#nav .list li{
+    float: left;
+}
+#nav .list li a{
+    display: block;
+    height:44px;
+    padding:0 19px;
+    color:#fff;
+}
+
+#banner{
+    min-width:1002px;
+    background: #e6e6e6;
+    height:328px;
+}
+#banner .wrap{
+    width:1002px;
+    margin:auto;
+}
+#banner .pic,#banner .news{
+    float: left;
+}
+#banner .news{
+    height:325px;
+    width:253px;
+    padding: 0px 40px 0px 40px;
+    border-bottom:3px solid #c8141f;
+    background: #eeeeee;
+}
+#banner .news ul{
+    padding-bottom:19px;
+    background: url("img/jr_18.jpg") right bottom no-repeat;
+}
+#banner .news ul li{
+    font-size:14px;
+    line-height:18px;
+    height:45px;
+    border-bottom:1px dashed #d4d4d4;
+    padding-top:11px;
+}
+#banner .news ul li a{
+    color:#000000;
+}
+#banner .news ul li span{
+    color:#777974;
+}
+
+#main{
+    min-width:1002px;
+    background: #fff;
+    padding-top:40px;
+    overflow: hidden;
+    padding-bottom:80px;
+    border-bottom:4px solid #ff9c00;
+}
+#main .wrap{
+    width:1002px;
+    margin:auto;
+    overflow: hidden;
+}
+#main .leftContext{
+    width:730px;
+    float: left;
+    font-size:12px;
+    margin-right:32px;
+}
+#main .leftContext .box{
+    float: left;
+    margin-bottom:50px;
+}
+#main .leftContext .leftBox{
+    width:270px;
+    margin-right:40px;
+}
+#main .leftContext .box h2{
+    font-size:16px;
+    line-height:38px;
+    border-bottom:1px solid #dfdfdf;
+}
+#main .leftContext .box .content{
+    padding-top:19px;
+}
+#main .leftContext .rightBox{
+    width:420px;
+}
+
+#main .leftContext .second .detail .left{
+    width:60px;
+    height:61px;
+    text-align: center;
+    background: #c8141f;
+    color:#fff;
+    float: left;
+}
+#main .leftContext .second .detail{
+    clear: both;
+    overflow: hidden;
+    margin-top:13px;
+}
+#main .leftContext .second .detail .left .day{
+    font-size:20px;
+    line-height:34px;
+}
+#main .leftContext .second .detail .left .yearMonth{
+    font-size:12px;
+    line-height:26px;
+}
+#main .leftContext .second .detail .right{
+    float: right;
+    width:334px;
+    font-size:14px;
+}
+#main .leftContext .second .detail .right h3{
+    color:#000;
+}
+#main .leftContext .second .detail .right p{
+    color:#9a9a9a;
+    font-size:12px;
+}
+#main .leftContext .box li{
+    overflow: hidden;
+    line-height:24px;
+}
+#main .leftContext .box li a{
+    color:#30302e;
+    float: left;
+}
+#main .leftContext .box li span{
+    float: right;
+}
+
+#main .rightOther{
+    width:240px;
+    float: left;
+}
+#main .rightOther .reward{
+    height:272px;
+    text-align: center;
+    background: url("img/bg_07.gif") repeat;
+
+}
+#main .rightOther .reward img{
+    margin-top:10px ;
+}
+#main .rightOther .email{
+    margin-top:30px;
+}
+#main .rightOther .email h2{
+    font-size:16px;
+    line-height:40px;
+    border-bottom:1px solid #cccccc;
+    margin-bottom:32px;
+}
+#main .rightOther .email input{
+    padding-left:4px;
+    width:210px;
+    height:26px;
+    border: 1px solid #cccccc;
+    margin-bottom:4px;
+}
+#main .rightOther .email button{
+    width:78px;
+    height:22px;
+    border: 1px solid #cccccc;
+}
+#main .rightOther .email span{
+    font-size:12px;
+    margin-left:50px;
+    color:#343233;
+}
+
+
+.space{
+    height:24px;
+    background: #ebebeb url(img/jr_36.jpg) top center no-repeat;
+}
+
+#footer{
+    height:42px;
+    min-width:1002px;
+    background: #d4d4d4;
+}
+#footer ul{
+    width:1002px;
+    margin:auto ;
+    text-align: center;
+    height:42px;
+    line-height:42px;
+}
+#footer ul li{
+    display: inline;
+    margin:0 50px;
+}
+#footer ul li a{
+    color:#000;
+    font-size:12px;
+}
+
+#last{
+    height:114px;
+    min-width:1002px;
+    background: #302728;
+    font-size:12px;
+    text-align: center;
+}
+#last .wrap{
+    width:1002px;
+    margin: auto;
+}
+#last .wrap ul{
+    height:48px;
+    line-height:48px;
+    border-bottom:1px solid #3b3233;
+}
+#last .wrap ul li{
+    display: inline;
+}
+#last .wrap ul li a{
+    color:#fff;
+    padding:0 9px 0 11px;
+    border-right:1px solid #fff;
+}
+#last .wrap ul li .last{
+    border: 0;
+}
+#last .first{
+    margin-top:20px;
+}
+#last p{
+    color:#929290;
+    line-height:24px;
+}

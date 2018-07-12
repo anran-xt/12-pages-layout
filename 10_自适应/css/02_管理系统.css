@@ -1,0 +1,378 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+    min-width:1200px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#top{
+    height:87px;
+}
+#bottom{
+    position: absolute;
+    top:90px;
+    bottom:0;
+    width:100%;
+
+}
+#bottom .left{
+    width:197px;
+    height:100%;
+    background: #f0f;
+    float: left;
+}
+#bottom .right{
+    height:100%;
+    overflow: hidden;
+    /*min-width:1003px;*/
+    background: #fff;
+}
+#top{
+    background: #7ab5e9;
+    position: relative;
+}
+
+
+#top .left{
+    float: left;
+    width:483px;
+    height:100%;
+    background: url("../img/logo.gif") no-repeat left;
+}
+#top .right{
+    position: absolute;
+    height:100%;
+    right:0;
+    width:720px;
+}
+#top .right:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+#top .right .top{
+    position: absolute;
+}
+#top .right .top{
+    height:21px;
+    line-height:20px;
+    font-size:12px;
+    color:#6d6d6d;
+    background: #fff;
+    width:264px;
+    border-bottom: 1px solid #e3e2e2;
+    position: absolute;
+    right:20px;
+}
+#top .right .top:before{
+    content: url("../img/head-l.jpg");
+    display: inline-block;
+    vertical-align: bottom;
+}
+#top .right .top:after{
+    content: url("../img/head-r.jpg");
+    display: inline-block;
+    vertical-align: bottom;
+    float: right;
+}
+#top .right .top .welc{
+    margin-left:11px;
+    padding-left:32px;
+    display: inline-block;
+    height:100%;
+    background: url(../img/dl.png) left no-repeat ;
+}
+#top .right .top .quit{
+    margin-left:17px;
+    padding-left:20px;
+    background: url(../img/tc.png) left no-repeat ;
+}
+
+#top .right .bottom{
+    position: absolute;
+    bottom:0;
+}
+
+#top .right .bottom{
+    float: left;
+}
+#top .right .bottom ul{
+     font-size:0;
+     /*float: left;*/
+}
+#top .right .bottom ul li{
+    float: left;
+    font-size:14px;
+    width:58px;
+    height:46px;
+    margin:0 44px 3px 0;
+    position: relative;
+}
+#top .right .bottom ul li a{
+    vertical-align: bottom;
+    position: absolute;
+    bottom:0;
+    color:#fff;
+}
+#top .right .bottom ul li:nth-of-type(1){
+    background: url(../img/n1.png) no-repeat top   ;
+}
+#top .right .bottom ul li:nth-of-type(2){
+    background: url(../img/n2.png) no-repeat top   ;
+}
+#top .right .bottom ul li:nth-of-type(3){
+    background: url(../img/n3.png) no-repeat top   ;
+}
+#top .right .bottom ul li:nth-of-type(4){
+    background: url(../img/n4.png) no-repeat top   ;
+}
+#top .right .bottom ul li:nth-of-type(5){
+    background: url(../img/n5.png) no-repeat top   ;
+}
+#top .right .bottom ul li:nth-of-type(6){
+    background: url(../img/n6.png) no-repeat top   ;
+}
+#top .right .bottom ul li:nth-of-type(7){
+    background: url(../img/n7.png) no-repeat top   ;
+}
+#top .border{
+    clear: both;
+    height:3px ;
+    width:100%;
+    background: url("../img/border.gif") repeat-x;
+}
+
+#bottom{
+    min-width:1200px;
+}
+#bottom .left{
+    width:196px;
+    background: #417ec8;
+    border-right:1px solid #407ec7;
+}
+#bottom .left:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+#bottom .left .topBorder{
+    width:195px;
+    height:26px;
+    background: url("../img/e_01.jpg") no-repeat;
+    border-right:1px solid #4f93d0;
+    border-bottom:1px solid #4f93d0;
+}
+#bottom .left>ul{
+    border-right:1px solid #4f93d0;
+}
+#bottom .left>ul>li{
+    border-top:1px solid #498bd7;
+    border-bottom:1px solid #2869bd;
+}
+#bottom .left>ul>li:first-child{
+    border-top:none;
+    border-bottom:none;
+    border-right:none;
+}
+#bottom .left>ul>li a{
+    height:34px;
+    line-height:34px;
+    margin-left:14px;
+    padding-left:25px;
+    color:#fff;
+    font-size:14px;
+}
+#bottom .left>ul>li:nth-of-type(1){
+    background: url("../img/left_hover.jpg") no-repeat;
+}
+#bottom .left>ul>li:nth-of-type(1)>a{
+    color:#000;
+    background: url("../img/left_01.png") left no-repeat;
+}
+#bottom .left>ul>li:nth-of-type(2) a{
+     background: url("../img/left_02.png") left no-repeat;
+}
+#bottom .left>ul>li:nth-of-type(3) a{
+    background: url("../img/left_03.png") left no-repeat;
+}
+#bottom .left>ul>li:nth-of-type(1)>ul{
+    border-top:1px solid #4f93d0;
+    border-bottom:1px solid #2869bd;
+}
+#bottom .left>ul>li:nth-of-type(1)>ul>li>a{
+    margin-left:39px;
+    padding-left:10px;
+    background: url("../img/jiao.png") no-repeat left;
+    color:#b9cbea;
+}
+#bottom .left>ul>li:last-child{
+    border-bottom: none;
+}
+
+#bottom .leftBorder{
+    width:8px;
+    height:100%;
+    background: url("../img/leftBorder.gif") repeat-y ;
+    float: left;
+
+}
+#bottom .right .rightMain{
+    /*float: left;*/
+    height:100%;
+    /*width:100%;*/
+}
+#bottom .right .rightMain .wrap{
+    padding:3px 0 0 6px;
+}
+#bottom .right .rightMain .head{
+    height:24px;
+    line-height:24px;
+    border-bottom:1px solid #e3e3e3;
+    padding-left:15px;
+    background: url("../img/home.jpg") left no-repeat;
+}
+#bottom .right .rightMain .head span{
+    margin:0 2px;
+    font-size:12px;
+    color:#636363;
+}
+#bottom .right .rightMain .search{
+    font-size:14px;
+    height:51px;
+    color:#000;
+    padding-left:38px;
+    background: url("../img/seacth.jpg") left no-repeat;
+}
+#bottom .right .rightMain .search .heihei{
+    margin-right:28px;
+}
+#bottom .right .rightMain .search:after{
+    content:"";
+    height:100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#bottom .right .rightMain .search .area{
+    display: inline-block;
+    margin-right:18px;
+}
+#bottom .right .rightMain .search .area span{
+    color:#666;
+}
+#bottom .right .rightMain .search .area input{
+    width:120px;
+    height:24px;
+    border:1px solid #bebebe;
+    background: #fff;
+}
+#bottom .right .rightMain .search .area select{
+    width:138px;
+    height:22px;
+    border: 1px solid #bebebe;
+    color:#a6a6a6;
+    outline: none;
+}
+#bottom .right .rightMain .search button{
+    width:56px;
+    height:22px;
+    border:1px solid #bebebe;
+    outline:none;
+    cursor: pointer;
+}
+#bottom .right .rightMain .table table{
+    border: 1px solid #d6d6d6;
+    border-collapse:collapse;
+    width:97%;
+    margin:auto;
+    font-size:12px;
+}
+#bottom .right .rightMain .table table tr{
+    border: 1px solid #d6d6d6;
+}
+#bottom .right .rightMain .table table tr:first-child td{
+    text-align: right;
+}
+#bottom .right .rightMain .table table td{
+    height:30px;
+    text-align: center;
+}
+#bottom .right .rightMain .table table tr:first-child td span{
+    display: inline-block;
+    width:63px;
+    height:14px;
+}
+#bottom .right .rightMain .table table tr:first-child span:nth-of-type(1){
+    border-right:1px solid #d4cdd4;
+    background: url("../img/tj.jpg") center no-repeat;
+    /*padding-right:12px;*/
+}
+#bottom .right .rightMain .table table tr:first-child span:nth-of-type(2) {
+    border-left:1px solid #dff7f7;
+    /*padding: 0 33px 0 9px;*/
+    background: url("../img/sc.jpg") center no-repeat;
+}
+#bottom .right .rightMain .table table tr:nth-of-type(2) td:nth-of-type(6){
+    background: none;
+}
+#bottom .right .rightMain .table table tr:nth-of-type(2) td:nth-of-type(7){
+    background: none;
+}
+#bottom .right .rightMain .table table tr:nth-of-type(2) td:nth-of-type(8){
+    background: none;
+}
+
+#bottom .right .rightMain .table table tr td:nth-of-type(6){
+    background: url("../img/device-1.png") center no-repeat;
+}
+#bottom .right .rightMain .table table tr td:nth-of-type(7) {
+    background: url("../img/share-1.png") center no-repeat;
+}
+#bottom .right .rightMain .table table tr td:nth-of-type(8) {
+    background: url("../img/xg.png") center no-repeat;
+}
+#bottom .right .rightMain .des{
+    padding:20px 20px;
+    font-size:12px;
+}
+#bottom .right .rightMain .des:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#bottom .right .rightMain .des p{
+    display: inline-block;
+}
+#bottom .right .rightMain .des a{
+    color:#000;
+}
+#bottom .right .rightMain .des p{
+    float: left;
+}
+#bottom .right .rightMain .des p span{
+    font-size:14px;
+    padding:0 5px;
+}
+#bottom .right .rightMain .des div{
+    float: right;
+}
+#bottom .right .rightMain .des div span{
+    display: inline-block;
+    width:18px;
+    height:18px;
+    border:1px solid #a3a3a3;
+    vertical-align: middle;
+    font-size:12px;
+    text-align: center;
+    background: #417eb7;
+}
+#bottom .right .rightMain .des div span a{
+    color:#fff;
+}
+

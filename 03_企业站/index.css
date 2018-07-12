@@ -1,0 +1,290 @@
+body{
+    margin:0;
+    padding:0;
+    background: #ffffff;
+    font-family: "宋体";
+}
+
+.clear{
+    clear:both;
+}
+
+#head .topHead{
+    height:100px;
+    width:960px;
+    margin:auto;
+}
+#head .topHead:before{
+    content: "";
+    display: table;
+}
+
+#head .topHead>img{
+    margin-top:33px;
+    vertical-align: middle;
+}
+#head .topHead .searchBar{
+    display: inline-block;
+    padding:37px 0;
+    float: right;
+    overflow: hidden;
+}
+#head .topHead .searchBar input{
+    outline: none;
+    width:200px;
+    padding:5px 5px 5px 5px;
+    background:#f1f1f1;
+    border: none;
+
+    font-size:14px;
+}
+#head .topHead .searchBar span{
+    position: relative;
+    top:3px;
+    left:-24px;
+    cursor: pointer;
+}
+
+#head .headList{
+    margin:auto;
+    height:58px;
+    background: url("img/qyz_00.jpg");
+    color:#f1f1f1;
+}
+#head .headList .listWrap{
+    width:960px;
+    margin: auto;
+}
+#head .headList ul{
+    font-size: 0;
+    margin:0;
+    padding:0;
+    list-style: none;
+    color:#ffffff;
+}
+#head .headList ul li{
+    display: inline-block;
+    /*float:left;*/
+    height:58px;
+    line-height: 58px;
+    width:119px;
+    text-align: center;
+    font-size:16px;
+    border-right:1px solid #484848;
+    cursor: pointer;
+}
+#head .headList ul li:last-child{
+    border: none;
+}
+
+#head .img{
+    height:464px;
+    margin: auto;
+    background: url("img/qyz_10.jpg") no-repeat;
+}
+#detailArea{
+    width:960px;
+    margin:auto;
+}
+#detailArea .topArea .news,#detailArea .topArea .intro,#detailArea .topArea .zhaopin{
+    float: left;
+}
+#detailArea .topArea{
+    padding-bottom:20px;
+}
+#detailArea .topArea .news{
+    width:450px;
+    padding:36px 20px 0 0;
+    color:#3f434f;
+    box-sizing: border-box;
+}
+#detailArea .topArea .news h1{
+    font-size: 16px;
+    font-weight: normal;
+}
+#detailArea .topArea .news ul{
+    padding-left:20px;
+}
+#detailArea .topArea .news ul li{
+    line-height:24px;
+    font-size:14px;
+}
+#detailArea .topArea .news ul span{
+    float: right;
+    color:#929292;
+}
+#detailArea .topArea .intro{
+    color:#929292;
+    box-sizing: border-box;
+    width:240px;
+    height:240px;
+    padding:0 20px;
+    background: #f1f1f1;
+}
+#detailArea .topArea .intro p:first-child{
+    margin:36px 0;
+    font-size:16px;
+    color:#3f434f;
+}
+#detailArea .topArea .intro p{
+    font-size:12px;
+    line-height:20px;
+}
+#detailArea .topArea .zhaopin{
+    width:270px;
+    height:240px;
+    padding:0 30px;
+    box-sizing: border-box;
+    background: url("img/qyz_15.jpg") no-repeat bottom;
+    color:#929292;
+}
+#detailArea .topArea .zhaopin p:first-child{
+    margin-top:36px;
+    color:#3f434f;
+}
+#detailArea .topArea .zhaopin p:nth-child(2){
+    font-size:14px;
+}
+#detailArea .topArea .zhaopin div{
+    width:66px;
+    height:20px;
+    background:#b0b0b0;
+    border-radius: 5px;
+    text-align: center;
+    font-size:14px;
+    color:#f1f1f1;
+    position: relative;
+    top:20px;
+    left:10px;
+}
+#detailArea .topArea .zhaopin div span{
+    line-height: 20px;
+}
+
+
+#detailArea .bottomArea h1{
+    font-size:16px;
+    font-weight: normal;
+    color:#2b2b2b;
+}
+#detailArea .bottomArea .boxList{
+    display: flex;
+    justify-content: space-between;
+}
+#detailArea .bottomArea .boxList dl{
+    font-size:13px;
+    width:210px;
+    height:200px;
+    color:#929292;
+}
+#detailArea .bottomArea .boxList dl dd{
+    margin:auto;
+    padding:5px 0;
+}
+
+#prodArea{
+    height:250px;
+    background:#e5e5e5;
+}
+#prodArea .wrap{
+    width:960px;
+    margin:auto;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+}
+#prodArea .wrap>div{
+    /*float: left;*/
+    display: inline-block;
+    height:250px;
+    vertical-align: top;
+}
+#prodArea h1{
+    font-size:16px;
+    color:#2b2b2b;
+    font-weight: normal;
+    margin:30px 0 0 0;
+    padding-bottom:20px;
+    border-bottom:1px solid #888888;
+}
+#prodArea ul{
+    margin:20px 0 0 0;
+    padding:0;
+    list-style: none;
+    vertical-align: top;
+    line-height:20px;
+    color:#626262;
+    font-size:14px;
+
+}
+#prodArea ul li:before{
+    content:url("img/qyz_09.jpg");
+    position: relative;
+    top:-2px;
+    left:-5px;
+}
+
+#prodArea .pro{
+    width:450px;
+}
+#prodArea .pro ul{
+    display: inline-block;
+
+}
+#prodArea .pro ul:nth-child(2){
+    width:150px;
+}
+#prodArea .pro ul:nth-child(3){
+     width:190px;
+ }
+#prodArea .pro ul:nth-child(4){
+    width:90px;
+}
+
+#prodArea .techno{
+    width:150px;
+    padding:0 40px;
+}
+
+#prodArea .yinxiao{
+    width:260px;
+}
+#prodArea .yinxiao .img{
+    text-align: center;
+    padding-top:10px;
+}
+
+#footer{
+    width:960px;
+    margin:auto;
+    height:82px;
+    color:#7d7d7d;
+}
+#footer .right,#footer .left{
+    padding-top:22px;
+}
+#footer .left{
+    float: left;
+}
+#footer .left ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    font-size:0;
+
+}
+#footer .left ul li{
+    font-size:14px;
+    display: inline-block;
+    border-right:1px solid #7d7d7d;
+    padding:0 5px;
+}
+#footer .left ul li:last-child{
+    border: none;
+}
+#footer .right{
+    font-size:14px;
+    float: right;
+}
+#footer .right img{
+    vertical-align: middle;
+}

@@ -1,0 +1,461 @@
+body,h1,h2,h3,p,dl,dd{
+    margin:0;
+}
+h1,h2,h3{
+    font-weight:normal;
+}
+ul,ol{
+    margin:0;
+    padding:0;
+}
+img{
+    border:none;
+    display: block;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style: none;
+}
+
+#header{
+    min-width:1263px;
+    margin:auto;
+    background: #c8251e;
+    height:70px;
+    line-height:70px;
+}
+#header .logo{
+    width:164px;
+    height:70px;
+    background: url("img/icon.png") no-repeat;
+    margin:0 101px 0 114px;
+    float: left;
+}
+#header .list{
+    height:70px;
+    float: left;
+}
+#header .list li{
+    float: left;
+    height: 100%;
+
+}
+#header .list li .home{
+    padding:0 34px;
+    background: #414141;
+}
+#header .list li a{
+    display: block;
+    height: 100%;
+    padding:0 20px;
+    border-left:1px solid #d2625e;
+    color:#fff;
+    font-size:14px;
+}
+#header .list .phone a{
+    overflow: hidden;
+}
+#header .list .phone span{
+    margin-top:21px;
+    display: block;
+    width:150px;
+    height:28px;
+    background: url("img/icon.png") 0 -95px no-repeat;
+}
+
+#banner{
+    min-width:1263px;
+    height:500px;
+    background: url("img/dh_08.jpg") no-repeat center;
+}
+
+#workArea{
+    min-width:920px;
+    background: #fff;
+    text-align: center;
+    padding-bottom:60px;
+
+}
+#workArea .wrap{
+    width:920px;
+    margin:auto;
+}
+#workArea .title{
+    height:151px;
+    overflow: hidden;
+}
+#workArea .title h2{
+    font-size:46px;
+    font-weight:lighter;
+    line-height:80px;
+    margin-top:10px;
+}
+#workArea .title p{
+    font-size:28px;
+    color:#e60000;
+    line-height:50px;
+}
+#workArea .title span{
+    display: block;
+    width:114px;
+    height:3px;
+    background: url("img/icon.png") -100px -231px;
+    margin: auto;
+}
+#workArea .des{
+    font-size:14px;
+    line-height:22px;
+    margin:10px 0 50px 0;
+}
+#workArea .boxList{
+    overflow: hidden;
+}
+#workArea .boxList .box{
+    width:144px;
+    float: left;
+    margin-right:114px;
+    font-size:14px;
+    color:#333331;
+}
+#workArea .boxList .box p{
+    margin-top:24px;
+}
+#workArea .boxList .fourthBox{
+    margin-right:0px;
+}
+#workArea .boxList .box span{
+    display: block;
+    width:144px;
+    height:144px;
+    background: url("img/pic.png") no-repeat ;
+}
+#workArea .boxList .secondBox span{
+    background: url("img/pic.png") no-repeat 0 -144px;
+}
+#workArea .boxList .thirdBox span{
+    background: url("img/pic.png") no-repeat 0 -288px;
+}
+#workArea .boxList .fourthBox span{
+    background: url("img/pic.png") no-repeat 0 -432px;
+}
+
+#case{
+    min-width:1263px;
+    background: #f7f7f7;
+}
+#case .title{
+    height:232px;
+    text-align: center;
+    overflow: hidden;
+}
+#case .title h2{
+    font-size:30px;
+    margin:57px 0 15px 0;
+    color:#e80000;
+}
+#case .title p{
+    font-size:32px;
+    color:#323232;
+    font-weight:lighter;
+    letter-spacing:5px;
+}
+#case .boxList{
+    overflow: hidden;
+}
+#case .boxList .box{
+    width:391px;
+    float: left;
+    background: #fff;
+    margin:0 15px;
+}
+#case .boxList .box .des{
+    height:88px;
+    border-bottom: 1px solid #e7e7e7;
+    padding:19px 19px 0 20px;
+    position: relative;
+}
+#case .boxList .box .des span{
+    display: block;
+    width:24px;
+    height:24px;
+    background: url("img/icon.png") 0 -210px no-repeat;
+    position: absolute;
+    right:18px;
+    bottom:32px;
+}
+#case .boxList .box .des span a{
+    display: block;
+}
+#case .boxList .box .des .address{
+    line-height:32px;
+    font-size:18px;
+}
+#case .boxList .box .des .finished{
+    font-size:14px;
+    color:#989898;
+}
+#case .wrap{
+    width:1263px;
+    margin:auto;
+}
+
+#talk{
+    height:302px;
+    min-width:1263px;
+    background: #ce0000;
+    text-align: center;
+    color:#fff;
+}
+#talk h2{
+    font-size:28px;
+    line-height:28px;
+    padding:56px 0 38px 0;
+}
+#talk  span{
+    display: block;
+    width:50px;
+    height:35px;
+    margin:0 auto 34px auto;
+    background: url("img/icon.png") -164px -161px;
+}
+#talk p{
+    width:141px;
+    height:44px;
+    margin: auto ;
+    line-height:44px;
+    border:2px solid #fff;
+}
+#talk p a{
+    display: block;
+    color:#fff;
+}
+
+#news{
+    min-width:1115px;
+    background: #e4e4e4;
+}
+#news .wrap{
+    width:1115px;
+    margin: auto;
+}
+#news .title{
+    text-align: center;
+    overflow: hidden;
+}
+#news .title p{
+    font-size:20px;
+    color:#8f8f8f;
+    padding-top:60px;
+    letter-spacing:2px;
+}
+#news .title h2{
+    font-size:30px;
+    color:#3d3d3b;
+    line-height:1em;
+    padding:20px 0 16px 0;
+}
+#news .title span{
+    display: inline-block;
+    height:3px;
+    width:114px;
+    background: url("img/icon.png") -100px -231px no-repeat;
+}
+#news .title ul{
+    margin:36px 0 39px 0;
+}
+#news .title ul li{
+    display: inline;
+    margin:0 35px;
+}
+#news .title ul li a{
+    font-size:16px;
+    color:#000;
+}
+#news .title ul li .firm{
+    color:#d2011e;
+}
+#news .newsMain{
+    overflow: hidden;
+    padding-bottom:40px;
+}
+#news .newsMain .left{
+    width:318px;
+    background: #fff;
+    float: left;
+    height:334px;
+}
+#news .newsMain .left .head{
+    padding:16px 12px;
+}
+#news .newsMain .left .head .date{
+    width:68px;
+    height:68px;
+    float: left;
+    text-align: center;
+    color:#fff;
+}
+#news .newsMain .left .head .date .day{
+    height:34px;
+    background: #c70c1f;
+    font-size:20px;
+    line-height:34px;
+}
+#news .newsMain .left .head .date .yearMonth{
+    height:34px;
+    background: #a70011;
+    line-height:34px;
+    font-size:12px;
+}
+#news .newsMain .left .head .name{
+    font-size:12px;
+    padding:0 12px;
+    float: left;
+}
+#news .newsMain .left .head .name .titleName{
+    color:#d50020;
+    line-height:32px;
+}
+#news .newsMain .left .head .name span{
+    display: inline-block;
+}
+#news .newsMain .left .head .name .edit{
+    float: left;
+}
+#news .newsMain .left .head .name .visited{
+    float:right;
+}
+#news .newsMain .left .head .name .edit span{
+    width:15px;
+    height:14px;
+    background: url("img/icon.png") -200px -20px no-repeat;
+    margin-right:5px;
+}
+#news .newsMain .left .head .name .visited span{
+    width:12px;
+    height:12px;
+    background: url("img/icon.png") -203px 0 no-repeat;
+    margin-right:5px;
+}
+#news .newsMain .left .head .des{
+    clear: both;
+    padding-top:17px;
+    line-height:26px;
+    font-size:12px;
+    text-indent:2em;
+}
+#news .newsMain .listBox{
+    float: left;
+    width:797px;
+}
+#news .newsMain .box{
+    width:344px;
+    height:64px;
+    background: #fff;
+    padding:17px 12px;
+    overflow: hidden;
+    float: left;
+    margin:0 0 20px 20px;
+}
+#news .newsMain .box .date{
+    width: 58px;
+    height:58px;
+    background: #939393;
+    float: left;
+}
+#news .newsMain .box .date p{
+    text-align: center;
+    color:#fff;
+}
+#news .newsMain .box .date .day{
+    height:34px;
+    font-size:18px;
+    line-height:34px;
+}
+#news .newsMain .box .date .yearMonth{
+    height:24px;
+    font-size:12px;
+    line-height:24px;
+}
+#news .newsMain .box .name{
+    width:265px;
+    font-size:12px;
+    float: left;
+    margin-left:14px;
+}
+#news .newsMain .box .name .titleName{
+    margin-bottom:12px;
+}
+
+#footer{
+    background: #323232;
+    overflow: hidden;
+    padding-top:70px;
+    min-width:1115px;
+}
+#footer .wrap{
+    width:1115px;
+    margin:auto;
+    overflow: hidden;
+}
+#footer .guaid{
+    margin-left:20px;
+}
+#footer img{
+    float: left;
+}
+#footer dl{
+    float: left;
+    margin-right:100px;
+    color:#d5d5d5;
+}
+#footer dl dt{
+    font-size:16px;
+    line-height:30px;
+}
+#footer dl dd a{
+    color:#d5d5d5;
+}
+#footer dl dd{
+    font-size:14px;
+    line-height:28px;
+}
+#footer .contact {
+    margin:0;
+}
+#footer .contact  dd{
+    line-height:40px;
+}
+#footer .contact .address span{
+    display: inline-block;
+    width:25px;
+    height:32px;
+    background: url("img/icon.png") no-repeat -190px -45px;
+    vertical-align:middle;
+    margin-right:20px;
+}
+#footer .contact .phone span{
+    display: inline-block;
+    width:33px;
+    height:33px;
+    background: url("img/icon.png") no-repeat -181px -116px;
+    vertical-align:middle;
+    margin-right:12px;
+}
+#footer .contact .email span{
+    display: inline-block;
+    width:34px;
+    height:23px;
+    background: url("img/icon.png") no-repeat -181px -86px;
+    vertical-align:middle;
+    margin-right:12px;
+}
+#footer .lj{
+    margin-top:70px;
+    text-align: center;
+    color:#fff;
+    height:45px;
+    line-height:45px;
+    border-top:1px solid #4b4b4b;
+}
